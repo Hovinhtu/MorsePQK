@@ -41,48 +41,6 @@
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="200dp"
-            android:stretchColumns="null">
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:gravity="end"
-                android:layout_marginRight="30dp"
-                >
-
-                <Button
-                    android:id="@+id/playButtonMinus"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:background="@drawable/circle_button"
-                    android:text="-" />
-
-                <TextView
-                    android:id="@+id/textSpeed"
-                    android:layout_width="60dp"
-                    android:layout_height="wrap_content"
-                    android:textAlignment="center"
-                    android:textSize="20dp"
-                    android:textStyle="bold"
-                    android:text="15" />
-
-
-                <Button
-                    android:id="@+id/playButtonPlus"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="+" />
-
-
-            </TableRow>
-        </TableLayout>
-
-        <TableLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
             android:layout_marginTop="300dp"
             android:stretchColumns="null">
 
@@ -90,54 +48,20 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:layout_marginBottom="8dp">
+                android:layout_marginBottom="32dp">
 
                 <Button
-                    android:id="@+id/playButtonA"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
+                    android:id="@+id/learnSignal"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_button"
                     android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="A" />
+                    android:textColor="@color/black"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:text="Học ký hiệu" />
 
-                <Button
-                    android:id="@+id/playButtonB"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="B" />
-
-                <Button
-                    android:id="@+id/playButtonC"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="C" />
-
-                <Button
-                    android:id="@+id/playButtonD"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="D" />
-
-                <Button
-                    android:id="@+id/playButtonE"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-
-                    android:text="E" />
-                <Button
-                    android:id="@+id/playButtonF"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:background="@drawable/circle_button"
-                    android:text="F" />
             </TableRow>
 
             <TableRow
@@ -146,269 +70,19 @@
                 android:layout_marginBottom="8dp"
                 android:gravity="center">
                 <Button
-                    android:id="@+id/playButtonG"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:background="@drawable/circle_button"
+                    android:id="@+id/practice"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_button"
                     android:layout_marginRight="8dp"
-                    android:text="G" />
-
-                <Button
-                    android:id="@+id/playButtonH"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="H" />
-
-                <Button
-                    android:id="@+id/playButtonI"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="I" />
-
-                <Button
-                    android:id="@+id/playButtonJ"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="J" />
-
-                <Button
-                    android:id="@+id/playButtonK"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="K" />
-
-                <Button
-                    android:id="@+id/playButtonL"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:background="@drawable/circle_button"
-                    android:text="L" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="8dp"
-                android:gravity="center">
-
-                <Button
-                    android:id="@+id/playButtonM"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="M" />
-
-                <Button
-                    android:id="@+id/playButtonN"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="N" />
-
-                <Button
-                    android:id="@+id/playButtonO"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="O" />
-
-                <Button
-                    android:id="@+id/playButtonP"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="P" />
-
-                <Button
-                    android:id="@+id/playButtonQ"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="Q" />
-
-                <Button
-                    android:id="@+id/playButtonR"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:background="@drawable/circle_button"
-                    android:text="R" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="8dp"
-                android:gravity="center">
-
-                <Button
-                    android:id="@+id/playButtonS"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="S" />
-
-                <Button
-                    android:id="@+id/playButtonT"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="T" />
-
-                <Button
-                    android:id="@+id/playButtonU"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="U" />
-
-                <Button
-                    android:id="@+id/playButtonV"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="V" />
-
-                <Button
-                    android:id="@+id/playButtonW"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="W" />
-
-                <Button
-                    android:id="@+id/playButtonX"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:background="@drawable/circle_button"
-                    android:text="X" />
-            </TableRow>
-
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="8dp"
-                android:gravity="center">
-
-                <Button
-                    android:id="@+id/playButtonY"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="Y" />
-
-                <Button
-                    android:id="@+id/playButtonZ"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="Z" />
-
-                <Button
-                    android:id="@+id/playButton0"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="0" />
-
-                <Button
-                    android:id="@+id/playButton1"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="1" />
-
-                <Button
-                    android:id="@+id/playButton2"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="2" />
-
-                <Button
-                    android:id="@+id/playButton3"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:background="@drawable/circle_button"
-                    android:text="3" />
+                    android:textColor="@color/black"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:textSize="18dp"
+                    android:text="Thực hành" />
 
             </TableRow>
 
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginBottom="8dp"
-                android:gravity="center">
-
-                <Button
-                    android:id="@+id/playButton4"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="4" />
-
-                <Button
-                    android:id="@+id/playButton5"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="5" />
-
-                <Button
-                    android:id="@+id/playButton6"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="6" />
-
-                <Button
-                    android:id="@+id/playButton7"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="7" />
-
-                <Button
-                    android:id="@+id/playButton8"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:layout_marginRight="8dp"
-                    android:background="@drawable/circle_button"
-                    android:text="8" />
-
-                <Button
-                    android:id="@+id/playButton9"
-                    android:layout_width="45dp"
-                    android:layout_height="45dp"
-                    android:background="@drawable/circle_button"
-                    android:text="9" />
-            </TableRow>
         </TableLayout>
 
         <TextView
